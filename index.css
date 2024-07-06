@@ -1,0 +1,73 @@
+html,body{
+    margin: 0px;
+    border: 0px;
+    height: 100%;
+    background: url("free-photo-of-mild-sea-waves-hitting-the-beach.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    /* background: linear-gradient(rgba(33, 15, 15, 0.5),rgba(28, 178, 23, 0.5))url("free-photo-of-mild-sea-waves-hitting-the-beach.jpeg")(center/cover no-repeat fixed); */
+    
+}
+
+
+
+.container{
+    height: 100%;
+    display: flex;
+}
+
+.main{
+    box-sizing: border-box;
+    width: 200px;
+    padding:0px;
+    overflow-y: auto;
+    
+}
+
+button{
+    display: block;
+    padding: 4px;
+    width: 200px;
+    text-align: left;
+}
+.one{
+    padding: 5px;
+}
+.two{
+    padding: 5px;
+}
+.three{
+    padding: 5px;
+}
+.four{
+    padding: 5px;
+}
+.main2{
+    padding-left: 400px;
+    padding: 20px;
+    
+    border: 2px solid black;
+    flex: 1;
+    width: 900px;
+    /* display: block; */
+    /* overflow: auto; */
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+.main2 > div{
+    display: none;
+}
+.main2 h2{
+    margin-top: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size:small;
+    font-weight: bold;
+}
